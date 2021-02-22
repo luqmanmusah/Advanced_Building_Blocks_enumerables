@@ -1,4 +1,4 @@
-require_relative '../index'
+require_relative '../enumerables.rb'
 
 RSpec.describe Enumerable do
   describe '#my_select' do

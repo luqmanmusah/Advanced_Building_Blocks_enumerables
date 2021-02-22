@@ -1,8 +1,10 @@
 # Building_Blocks# bubble_sort
 
-In this project I re-made some of the most used Ruby Enumerable classes. The project is done as part of microverse main curriculum from the Ruby Section.
+In this project I re-created some of the most used Ruby Enumerable classes. The project is done as part of microverse main curriculum from the Ruby Section.
 
 ![screenshot](Screenshot.JPG)
+
+ # Enumerable Methods
 
 1. my_each for each
 2. my_select for select
@@ -30,11 +32,11 @@ In this project the testing was done using RSpec to test all game logic methods.
 
 1. Install Ruby on your machine
 
-2. Download and Unzip the folder containing this project, or clone it.
+2. Clone and Unzip the folder containing this project, or clone it.
 
 3. See "Usage" below to see how to use the classes
 
-4. In the terminal, navigate to the folder containing the file and run "ruby index.rb"
+4. In the terminal, navigate to the folder containing the file and run "ruby enumerables.rb"
 
 ## Usage
 
@@ -112,8 +114,8 @@ This method uses my_map to multiply the elements of an array with a sum
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/luqmanmusah/Advanced_Building_Blocks_enumerables/issues).
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/luqmanmusah/Advanced_Building_Blocks_enumerables/blob/main/LICENSE) licensed.
