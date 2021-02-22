@@ -1,3 +1,4 @@
+# rubocop: disable Metrics/PerceivedComplexity, Metrics/CyclomaticComplexity, Metrics/ModuleLength, Metrics/MethodLength
 module Enumerable
   def my_each
     return to_enum(:my_each) unless block_given?
@@ -115,7 +116,7 @@ module Enumerable
       my_any_boolean = true if yield(i)
     end
     my_any_boolean
-    end
+  end
 
   def my_none?(*args)
     if args.length == 1 && !block_given?
@@ -181,7 +182,7 @@ module Enumerable
       my_each { |s| arg = arg.nil? ? s : yield(arg, s) }
     end
     arg
-end
+  end
 
   def my_count(*args)
     if args.length.zero? && !block_given?
@@ -226,11 +227,11 @@ end
     end
     my_array
   end
-  end
+end
 
 def multiply_els(*args)
   return args.first.my_inject { |a, b| a * b } if args.length == 1
 
   my_inject { |a, b| a * b }
 end
-end
+# rubocop: enable Metrics/PerceivedComplexity, Metrics/CyclomaticComplexity,  Metrics/ModuleLength, Metrics/MethodLength
